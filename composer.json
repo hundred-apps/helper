@@ -1,0 +1,28 @@
+{
+    "name": "togu-inotek/helper",
+    "version": "1.0.0",
+    "description": "Helper",
+
+    "authors": [{ "name": "Togu Inovasi Teknologi", "email": "developer.togu@gmail.com" }],
+
+    "require": {
+
+        "php": "^8.0"
+    },
+
+    "require-dev": {},
+
+    "autoload": {
+
+        "files": [
+
+            "src/Helpers/Sortable.php",
+            "src/Helpers/Searchable.php",
+            "src/Helpers/Paginateable.php",
+            "src/Helpers/Requestable.php",
+            "src/Helpers/Responseable.php"
+        ]
+    },
+
+    "autoload-dev": {}
+}
